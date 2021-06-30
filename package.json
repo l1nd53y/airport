@@ -18,5 +18,13 @@
   "homepage": "https://github.com/l1nd53y/airport#readme",
   "dependencies": {
     "jest": "^27.0.6"
+  },
+    "scripts": {
+      "test": "jest --watchAll",
+      "test:report": "jest --coverage=true"
+    },
+    "dependencies": {
+      "jest": "^26.4.2"
+    }
   }
-}
+
